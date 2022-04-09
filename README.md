@@ -19,15 +19,14 @@ A planta na qual será instalado os sistema é composta por três centrais de ge
 Na figura abaixo tem-se o layout resumido da planta.
 
 
+![layout_1](https://user-images.githubusercontent.com/47660021/162568647-0a24d110-9b0b-4892-9c68-00477322cb1b.png)
 
 
+ 3.Especificações Projeto
 
-  
+3.1 Hardware 
 
-
-Para isto será desenvolvido uma interface de hardware para ocomodar os sinais enviados pelo transdutor de pressão e a placa de desenvolvimento.
-A placa de desenvolviento  
-
-
+O Hardware selecionado para o projeto é o STM32F746 Discovery Kit.
+Este kit embarca um processador ARM Cortex M7 o **STM32F746NG** de 216MHz, 462MIPS, um display gráfico de 4.3" uma porta Ethernet, conector ARDUINO Uno.
 
 
