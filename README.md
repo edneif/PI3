@@ -26,7 +26,19 @@ Na figura abaixo tem-se o layout resumido da planta.
 
 3.1 Hardware 
 
-O Hardware selecionado para o projeto é o STM32F746 Discovery Kit.
-Este kit embarca um processador ARM Cortex M7 o **STM32F746NG** de 216MHz, 462MIPS, um display gráfico de 4.3" uma porta Ethernet, conector ARDUINO Uno.
+O Hardware selecionado para o projeto é o STM32F746 Discovery Kit da ST.
+Este kit embarca um processador ARM Cortex M7 o **STM32F746NG** de 216MHz, 462MIPS, um display gráfico de 4.3" uma porta Ethernet, conector ARDUINO Uno. Na Figura abaixo tem-se a imagem da placa de desenvolvimento.
+
+
+![32F746GDISCOVERY](https://user-images.githubusercontent.com/47660021/162569096-981dd325-8ecb-4b37-af0f-9166579ac6fd.png)
+
+Este kit de desenvolvimento foi escolhido por já ter integrado o display gráfico, uma interface ethernet e um conector de expansão de fácil uso, como também o autor deste trabalho já o dispor. Abaixo o link do manual deste hardware [STM32F746 Discovery Kit Manual](https://github.com/edneif/git/blob/main/pdf/um1907-discovery-kit-for-stm32f7-series-with-stm32f746ng-mcu-stmicroelectronics.pdf)
+
+Neste conector de expansão será acoplado um hardware desenvolvido pelo autor que proverá  alimentação, condicionará e isolará os sinais entre trandutores e STM32F746.
+
+
+3.1.1 Hardware de expansão
+
+.... 
 
 
