@@ -89,6 +89,7 @@ Para adquirir os dados de pressão, faz-se necessário um transdutor de pressão
 
 Verificou o  mesmo utilizando um calibrador de manometros.
 
+![verificador_manometro.png](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/verificador_manometro.png)
 
 
 |Pressão (bar)  | Saída (V)  |
@@ -131,6 +132,9 @@ Para armazenamento das informações usou-se [postgresql](https://www.postgresql
 ![BancoDados_1.png](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/BancoDados_1.png)
 
 Utilizou-se a ferramenta [pgadmin](https://www.pgadmin.org/download/), para acesso ao banco de dados, facilitando o seu uso.
+![pgadmin.png](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/pgadmin.png)
 
+#### 3.2.2 Software Captura Dados
 
+Para comunicar com a placa desenvolvida, adquirindo os dados lidos pela placa e salvando no bando de dados, uma estrutura de rede é necessária para a aplicação. Abaixo tem-se um exemplo de rede.
 
