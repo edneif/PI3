@@ -136,5 +136,17 @@ Utilizou-se a ferramenta [pgadmin](https://www.pgadmin.org/download/), para aces
 
 #### 3.2.2 Software Captura Dados
 
-Para comunicar com a placa desenvolvida, adquirindo os dados lidos pela placa e salvando no bando de dados, uma estrutura de rede é necessária para a aplicação. Abaixo tem-se um exemplo de rede.
+Para comunicar com a placa desenvolvida, adquirindo os dados lidos e salvando no bando de dados, uma estrutura de rede é necessária para a aplicação. Abaixo tem-se um exemplo de rede.
 
+![rede_1.png](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/rede_1.png)
+
+Este serviço conecta-se ao banco de dados, faz uma conexão com a placa, recebe os dados e salva no banco. Algumas bibliotecas de python foram utilizadas como [psycopg2](https://www.psycopg.org/docs/) para conexão com o banco de dados, o cliente TCP foi usado a biblioteca [sockets](https://docs.python.org/pt-br/3/howto/sockets.html).
+
+
+#### 3.2.3 Software Web Aplications
+
+Para diponibilizar os dados na rede, escreveu-se um programa em python, cuja função é ler do banco de dados, cuja biblioteca principal utilizada foi a [psycopg2](https://www.psycopg.org/docs/) , e disponibilizar via web aplication utilizando [dash](https://dash.plotly.com/).
+
+Abaixo tem-se o gráfico rodando em tempo real que pode ser acessado de qualquer parte da rede interna por um browser como google crome.
+
+![enter image description here](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/resultado_1.png)
