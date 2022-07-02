@@ -61,4 +61,19 @@ Pode-se acessar o esquemático completo através do link [Esquemático -STM32F46
 3.1.1.3 Layout Placa Expanção
 
 Para projeto da placa de expanção foi utilizado o software de projeto de placas de circuito impresso o  Kicad 6.0. A página oficial do Kicad pode ser acessada no link [https://www.kicad.org](https://www.kicad.org/)
-  
+
+Abaixo tem-se o layout final e as visualizações 3D do projeto.
+
+![PCB_01](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/PCB_1.png)
+
+![PCB_2.png](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/PCB_2.png)
+
+![PCB_3.png](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/PCB_3.png)
+
+![PCB_4.png](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/PCB_4.png)
+
+![PCB_5.PNG](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/PCB_5.png)
+
+![PCB_6.PNG](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/PCB_6.png)
+
+![PCB_7.PNG](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/PCB_7.png)
