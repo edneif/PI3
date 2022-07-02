@@ -53,5 +53,12 @@ Abaixo tem-se o esquemático resumido da placa de desenvolvimento STM32F746 Disc
 
 ![esquemático_STM32F746 Discovery Kit.png](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/esquem%C3%A1tico_STM32F746%20Discovery%20Kit.png)
 
-Pode-se acessar o esquemático completo através do link [esquemático STM32F46 Discovery Kit](https://github.com/edneif/PI3/blob/f6d6d0a415206b4271bded015b3e382bf827c5eb/pdf/figuras/en.mb1191-F746NGH6-C01_schematic.pdf)
+Pode-se acessar o esquemático completo através do link [Esquemático -STM32F46 Discovery Kit](https://github.com/edneif/PI3/blob/f6d6d0a415206b4271bded015b3e382bf827c5eb/pdf/figuras/en.mb1191-F746NGH6-C01_schematic.pdf)
 
+3.1.1.2 Esquemático Placa Expanção
+
+
+3.1.1.3 Layout Placa Expanção
+
+Para projeto da placa de expanção foi utilizado o software de projeto de placas de circuito impresso o  Kicad 6.0. A página oficial do Kicad pode ser acessada no link [https://www.kicad.org](https://www.kicad.org/)
+  
