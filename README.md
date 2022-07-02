@@ -85,10 +85,25 @@ Abaixo tem-se o layout final e as visualizações 3D do projeto.
 #### 3.1.3 Transdutor de Pressão
 
 Para adquirir os dados de pressão, faz-se necessário um transdutor de pressão. O transdutor escolhido é da faixa de 0 a 10 bar, sabendo-se que a rede de ar comprimido opera em 6 bar, e como saida elétrica 0 a 10V.
+![transdutor.png](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/transdutor.png)
+
+Verificou o  mesmo utilizando um calibrador de manometros.
 
 
 
-
+|Pressão (bar)  | Saída (V)  |
+|--|--|
+| 0,0 | 0,1 |
+| 1,0 | 1,0 |
+| 2,0 | 2,0 |
+| 3,0 | 3,0 |
+| 4,0 | 4,0 |
+| 5,0 | 6,0 |
+| 6,0 | 6,0 |
+| 7,0 | 7,0 |
+| 8,0 | 8,0 |
+| 9,0 | 9,0 |
+| 10,0 | 9,8 |
 
 
 ### 3.2 Software
@@ -113,8 +128,9 @@ Conforme fluxograma acima foi utilizado [TouchGFX](https://www.st.com/en/develop
 #### 3.2.2 Software Banco de Dados
 
 Para armazenamento das informações usou-se [postgresql](https://www.postgresql.org/), um database open source. A estrutura do banco de dados verifica-se no fluxograma abaixo.
-
-
+![BancoDados_1.png](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/BancoDados_1.png)
 
 Utilizou-se a ferramenta [pgadmin](https://www.pgadmin.org/download/), para acesso ao banco de dados, facilitando o seu uso.
+
+
 
