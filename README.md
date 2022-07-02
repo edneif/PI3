@@ -25,8 +25,10 @@ Na figura abaixo tem-se o layout resumido da planta.
  3.Implementação do Projeto
 
  3.1 Hardware
+ 
+ 3.1.1 Hardware Processador
 
-O hardware selecionado para o projeto é o STM32F746 Discovery Kit da ST. 
+O hardware de processamento selecionado para o projeto é o STM32F746 Discovery Kit da ST. 
 Este kit embarca um processador ARM Cortex M7 o **STM32F746NG** de 216MHz, 462MIPS, um display gráfico de 4.3" uma porta Ethernet, conector ARDUINO Uno. Na Figura abaixo tem-se a imagem da placa de desenvolvimento.
 
 
@@ -37,7 +39,7 @@ Este kit de desenvolvimento foi escolhido por já ter integrado o display gráfi
 Neste conector de expansão é acoplado um hardware desenvolvido pelo autor que proverá  alimentação, condicionará e isolará os sinais entre trandutores e STM32F746.
 
 
-3.1.1 Hardware de expansão
+3.1.2 Hardware de expansão
 
 A placa de expanção de Hardware terá a finalidade de condicionar e isolar os sinais. A alimentenção do sistema é de 24VDC, definida devido ao grande uso e disponibilidade deste nível de tensão em ambientes industriais. As funcões da placa de expanção de hardware é mostrada na figura abaixo.
 
@@ -47,7 +49,7 @@ A placa de expanção de Hardware terá a finalidade de condicionar e isolar os 
 É previsto na placa de extenção de hardware uma saída 12VDC que deverá alimentar o STM32F746G a partir de uma tensão de entrada de 24VDC, oito entradas digitais isoladas, quatro saídas a rele, 6 entradas analógicas de 0-10VDC isoladas.
 
 
-3.1.1.1 Esquemático STM32F746 Discovery Kit 
+3.1.2.1 Esquemático STM32F746 Discovery Kit 
 
 Abaixo tem-se o esquemático resumido da placa de desenvolvimento STM32F746 Discovery Kit.
 
@@ -55,10 +57,10 @@ Abaixo tem-se o esquemático resumido da placa de desenvolvimento STM32F746 Disc
 
 Pode-se acessar o esquemático completo através do link [Esquemático -STM32F46 Discovery Kit](https://github.com/edneif/PI3/blob/f6d6d0a415206b4271bded015b3e382bf827c5eb/pdf/figuras/en.mb1191-F746NGH6-C01_schematic.pdf)
 
-3.1.1.2 Esquemático Placa Expanção
+3.1.2.2 Esquemático Placa Expanção
 
 
-3.1.1.3 Layout Placa Expanção
+3.1.2.3 Layout Placa Expanção
 
 Para projeto da placa de expanção foi utilizado o software de projeto de placas de circuito impresso o  Kicad 6.0. A página oficial do Kicad pode ser acessada no link [https://www.kicad.org](https://www.kicad.org/)
 
@@ -77,3 +79,14 @@ Abaixo tem-se o layout final e as visualizações 3D do projeto.
 ![PCB_6.PNG](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/PCB_6.png)
 
 ![PCB_7.PNG](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/PCB_7.png)
+
+ 3.2 Software
+
+Para  implementação do projeto no ARM Cortex foi utizado a IDE da próprima ST, o STM32IDE CUBE, que poder ser acessado no link [https://www.st.com/en/development-tools/stm32cubeide.html](https://www.st.com/en/development-tools/stm32cubeide.html).
+
+Foi utilizado o freertos [https://www.freertos.org/](https://www.freertos.org/) como base do programa, seguindo o fluxograma  abaixo:
+
+![stm32_fluxograma](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/fluxograma_stm32.png)
+[Fluxograma stm32](https://github.com/edneif/PI3/blob/main/pdf/figuras/fluxograma_stm32.pdf)
+
+Conforme fluxograma acima foi utilizado [TouchGFX](https://www.st.com/en/development-tools/touchgfxdesigner.html), uma ferramenta disponibilizada pela própria ST, para simplicar a utilização de displays gráficos. Abaixo tem-se as telas criadas.
