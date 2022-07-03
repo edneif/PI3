@@ -2,7 +2,7 @@
 
 ### SISTEMA DE AQUISIÇÃO DE PRESSÃO DE AR COMPRIMIDO PLANTA INDUSTRIAL
 
-#### 1. Proposta Trabalho
+### 1. Proposta Trabalho
 
 O presente trabalho tem a proposta do desenvolvimento de um sistema de aquisição de dados de pressão, de uma planta industrial.
 
@@ -13,18 +13,20 @@ Este sistema será conectado a rede local através de uma interface ethernet, se
 Por fim será implementado uma interface para computador para acesso dos dados e visualizão gráfica das variáveis.
 
 
-#### 2. Planta
+### 2. Planta
 
 A planta na qual será instalado os sistema é composta por três centrais de geração de ar comprimido, composta por 12 geradores, com uma capacidade máxima de 191m3/min e uma potência de 1,12MW.
 Na figura abaixo tem-se o layout resumido da planta.
 
 ![layout_1.png](https://raw.githubusercontent.com/edneif/PI3/9d93a5eff6fc5123885bc35ade6224d1cf54fb85/pdf/figuras/layout_1.png)
-
+[Layout Planta](https://github.com/edneif/PI3/blob/main/pdf/figuras/layout_1.pdf)
 
 
  ### 3.Implementação do Projeto
 
 #### 3.1 Hardware
+ 
+ Nesta seção será abordado o hardware utilizado e desenvolvido no projeto.
  
 #### 3.1.1 Hardware Processador
 
@@ -159,3 +161,7 @@ Para diponibilizar os dados na rede, escreveu-se um programa em python, cuja fun
 Abaixo tem-se o gráfico rodando em tempo real que pode ser acessado de qualquer parte da rede interna por um browser como google crome.
 
 ![enter image description here](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/resultado_1.png)
+
+### 3.3 Cronograma
+
+![Cronograma](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/cronograma.png)
