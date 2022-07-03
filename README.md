@@ -60,6 +60,15 @@ Pode-se acessar o esquemático completo através do link [Esquemático -STM32F46
 
 #### 3.1.2.2 Esquemático Placa Expanção
 
+Abaixo tem-se o esquemático da placa de expenção.
+![esquematico_1](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/ESQUEMATICO_1.png)
+
+
+![esquematico_2](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/ESQUEMATICO_2.png)
+
+![esquematico_3](https://raw.githubusercontent.com/edneif/PI3/main/pdf/figuras/ESQUEMATICO_3.png)
+
+[Esquemático](https://github.com/edneif/PI3/blob/main/pdf/ESQUEM%C3%81TICO.pdf)
 
 #### 3.1.2.3 Layout Placa Expanção
 
